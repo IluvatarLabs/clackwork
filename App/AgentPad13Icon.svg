@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#252a35"/>
+      <stop offset=".55" stop-color="#171a21"/>
+      <stop offset="1" stop-color="#101218"/>
+    </linearGradient>
+    <linearGradient id="key" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1f3f7"/>
+      <stop offset="1" stop-color="#c9ced8"/>
+    </linearGradient>
+    <radialGradient id="knob" cx="38%" cy="28%" r="72%">
+      <stop offset="0" stop-color="#f0f2f6"/>
+      <stop offset="1" stop-color="#aeb5c1"/>
+    </radialGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="165%">
+      <feDropShadow dx="0" dy="10" stdDeviation="9" flood-color="#000" flood-opacity=".42"/>
+    </filter>
+  </defs>
+  <rect x="32" y="32" width="960" height="960" rx="192" fill="url(#body)" stroke="#8aa6ff" stroke-width="10"/>
+  <rect x="38" y="38" width="948" height="948" rx="186" fill="none" stroke="#fff" stroke-opacity=".16" stroke-width="4"/>
+  <circle cx="266" cy="189" r="76" fill="url(#knob)" stroke="#4b5260" stroke-width="4" filter="url(#shadow)"/>
+  <circle cx="750" cy="196" r="56" fill="#303540" stroke="#4d5462" stroke-width="4"/>
+  <circle cx="750" cy="196" r="28" fill="#aab1bd"/>
+  <g fill="url(#key)" stroke="#4a505d" stroke-width="4" filter="url(#shadow)">
+    <rect x="190" y="277" width="151" height="151" rx="20"/><rect x="353" y="277" width="151" height="151" rx="20"/><rect x="517" y="277" width="151" height="151" rx="20"/><rect x="682" y="277" width="151" height="151" rx="20"/>
+    <rect x="190" y="442" width="151" height="151" rx="20"/><rect x="353" y="442" width="151" height="151" rx="20"/><rect x="517" y="442" width="151" height="151" rx="20"/><rect x="682" y="442" width="151" height="151" rx="20"/>
+    <rect x="190" y="605" width="151" height="151" rx="20"/><rect x="353" y="605" width="151" height="151" rx="20"/><rect x="517" y="605" width="151" height="151" rx="20"/><rect x="682" y="605" width="151" height="151" rx="20"/>
+    <rect x="354" y="769" width="316" height="151" rx="20"/>
+  </g>
+</svg>
