@@ -3,12 +3,12 @@
 import PackageDescription
 
 let package = Package(
-  name: "AgentPad13",
+  name: "Clackwork",
   platforms: [
     .macOS(.v13)
   ],
   products: [
-    .executable(name: "AgentPad13", targets: ["AgentPadV2"]),
+    .executable(name: "Clackwork", targets: ["AgentPadV2"]),
   ],
   targets: [
     .target(

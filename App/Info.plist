@@ -5,7 +5,7 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleExecutable</key>
-    <string>AgentPad13</string>
+    <string>Clackwork</string>
     <key>CFBundleIdentifier</key>
     <string>com.github.yuz207.agentpad13.companion</string>
     <key>CFBundleIconFile</key>
@@ -13,7 +13,7 @@
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
-    <string>AgentPad13</string>
+    <string>Clackwork</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>

@@ -26,7 +26,7 @@ enum CodexHookSetupError: LocalizedError {
   var errorDescription: String? {
     switch self {
     case .invalidHome: "CODEX_HOME must be an absolute path."
-    case .bundledHelperMissing: "The AgentPad13 Codex hook helper is missing."
+    case .bundledHelperMissing: "The Clackwork Codex hook helper is missing."
     case .invalidConfiguration: "Codex hooks.json is not valid JSON hook configuration."
     case .postcondition(let message): message
     }

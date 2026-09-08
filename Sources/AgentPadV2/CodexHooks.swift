@@ -194,7 +194,7 @@ final class CodexHookServer: @unchecked Sendable {
       "behavior": decision == .allow ? "allow" : "deny"
     ]
     if decision == .deny {
-      decisionObject["message"] = "Declined from AgentPad13."
+      decisionObject["message"] = "Declined from Clackwork."
     }
     return try? JSONSerialization.data(withJSONObject: [
       "hookSpecificOutput": [

@@ -26,7 +26,7 @@ struct AgentPad13App: App {
       AgentPadMenu(coordinator: coordinator)
     } label: {
       Image(nsImage: Self.menuBarIcon)
-        .accessibilityLabel("AgentPad13")
+        .accessibilityLabel("Clackwork")
     }
     .menuBarExtraStyle(.window)
   }

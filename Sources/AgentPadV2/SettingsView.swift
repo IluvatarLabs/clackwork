@@ -41,7 +41,7 @@ struct SettingsView: View {
   private var statusHeader: some View {
     VStack(spacing: 6) {
       HStack(spacing: 12) {
-        Text("AgentPad13").font(.headline)
+        Text("Clackwork").font(.headline)
         Spacer(minLength: 8)
         StatusBadge(label: "Device", value: deviceSummary, color: deviceStatusColor)
         StatusBadge(label: "Input", value: inputSummary, color: inputStatusColor)

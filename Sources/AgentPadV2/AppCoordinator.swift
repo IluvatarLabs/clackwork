@@ -170,7 +170,7 @@ final class AppCoordinator: ObservableObject {
     let content = SettingsView(coordinator: self)
       .frame(minWidth: 700, idealWidth: 780, minHeight: 360, idealHeight: 560)
     let window = NSWindow(contentViewController: NSHostingController(rootView: content))
-    window.title = "AgentPad13"
+    window.title = "Clackwork"
     window.styleMask = [.titled, .closable, .miniaturizable, .resizable]
     window.minSize = NSSize(width: 700, height: 360)
     window.contentMaxSize = NSSize(width: CGFloat.greatestFiniteMagnitude, height: 560)
